@@ -12,7 +12,7 @@ This is simple Counting App | The Counter is used for basically two things. Numb
 ## Preview
 <img src="/Screenshot/Screenshot_2021-10-13-15-08-00-55_dfafa0d5319d3b7ee9c4fc826448c83e.jpg" width="300"  align="left">
 <img src="/Screenshot/Screenshot_2021-10-13-15-08-07-14_dfafa0d5319d3b7ee9c4fc826448c83e.jpg" width="300" align="left">
-<img src="/Screenshot/Screenshot_2021-10-13-15-08-00-55_dfafa0d5319d3b7ee9c4fc826448c83e.jpg" width="300" align="left"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="/Screenshot/Screenshot_2021-10-13-15-08-12-29_dfafa0d5319d3b7ee9c4fc826448c83e.jpg" width="300" align="left"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Implementation
 Now the counter is based on `Onclick()` public method. This method will help us to count the number.
