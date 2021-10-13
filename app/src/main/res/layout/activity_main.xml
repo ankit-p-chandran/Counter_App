@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44A308"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+
+        android:text="Total Counts"/>
+    <TextView
+        android:id="@+id/txCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="100dp"
+        android:textColor="@color/black"
+        android:text="0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btMinus"
+            android:layout_width="77dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_minus"
+            android:text="-"
+            android:layout_marginEnd="5dp"
+            android:textColor="@android:color/white"
+
+            android:textSize="50sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btPlus"
+
+            android:layout_width="196dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_plus"
+            android:text="+"
+            app:backgroundTint="@null"
+
+            android:textColor="@android:color/white"
+
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/txReset"
+        android:layout_width="308dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Reset Counter"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+</LinearLayout>
