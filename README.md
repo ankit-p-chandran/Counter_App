@@ -35,7 +35,7 @@ Now the counter is based on `Onclick()` public method. This method will help us 
 
 
 ## Follow me
-<h4>Hey, while you're here why don't you think of following me for awesome projects like this, ah? <a href="https://github.com/AnkitPChandran">Follow Me on my Profile!</a></h4>
+<h4>Hey, while you're here why don't you think of following me for awesome projects like this, ah? <a href="https://github.com/ankit-p-chandran">Follow Me on my Profile!</a></h4>
 
 <br>
 Lets grab code with chai.
